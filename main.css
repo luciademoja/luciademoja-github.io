@@ -1,0 +1,18 @@
+header .row {
+  display: flex;
+  align-items: center;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
