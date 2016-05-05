@@ -19,6 +19,7 @@ header p {
 
 #name {
   color: green;
+  font-size: 30px;
 }
 
 section .row img {
@@ -43,4 +44,15 @@ footer ul {
 footer li img {
   width: 32px;
   height: 32px;
+}
+
+#footer {
+	width:100%;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+p {
+    margin: 1cm 4cm 1cm 4cm;
 }
