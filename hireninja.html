@@ -25,25 +25,21 @@
   <script src='https://code.jquery.com/jquery-2.1.4.js'></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.1/foundation.js"></script>
 
-<p id="question">How many ninja dude cats can a ninja can have during his/her life?</p><br>
+  <p id="question">Do you have the Ninja password?</p><br>
+  <button onclick="quiz()">Submit</button>
+  <input id="answer" type="text">
+  <input type="submit" value="Submit">
 
-<div id="form" class="container">
-<FORM method="POST"
-    onSubmit="return checkAnswer(this,'B');">
-
-<INPUT TYPE="RADIO" VALUE="A" NAME="cc">
-A. How many they want<BR>
-
-<INPUT TYPE="RADIO" VALUE="B" NAME="cc">
-B. Just one<BR>
-
-<INPUT TYPE="RADIO" VALUE="C" NAME="cc">
-C. Ninja cats do not have friends<BR>
-
-<INPUT TYPE="SUBMIT" VALUE="Submit Answer">
-
-</FORM>
-</div>
+<script>
+function quiz() {
+if (document.getElementById('answer').value == '1') {
+window.alert("CORRECT! A Ninja Cat is coming to your place.");
+}
+else {
+window.alert("WRONG.");
+}
+}
+</script>
 
   <footer id="footer" class="container">
     <div class="row">
@@ -52,13 +48,13 @@ C. Ninja cats do not have friends<BR>
         <li class="small-2 column">
         <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg">
         </li>
-      	<li class="small-2 column">
+        <li class="small-2 column">
         <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/facebook.svg">
         </li>
-      	<li class="small-2 column">
+        <li class="small-2 column">
         <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg">
         </li>
-      	<li class="small-2 column end">
+        <li class="small-2 column end">
         <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/medium.svg">
         </li>
       </ul>
