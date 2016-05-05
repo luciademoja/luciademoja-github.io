@@ -14,6 +14,7 @@
     <div class="row">
       <a href="index.html" id="name" class="medium-4 columns">NinjaCats.com</a>
         <nav class="medium-8 columns">
+          <a href="index.html"><p>Home</p></a>
           <a href="lore.html"><p>Lore</p></a>
           <a href="quiz.html"><p>Quiz</p></a>
           <p>Hire a ninja cat</p>
@@ -25,21 +26,22 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.1/foundation.js"></script>
 
 <p id="question">How many ninja dude cats can a ninja can have during his/her life?</p><br>
-  <button onclick="quiz()">Submit</button>
-  <input id="answer" type="text">
-  <input type="submit" value="Submit">
 
-<script>
-function quiz() {
-if (getElementById('answer').value == '1') {
-window.alert("CORRECT! You are a true ninja fan");
-}
-else {
-window.alert("A ninja cat with his only ninja dude cat is coming to your house to teach you a lesson. PRAY.");
-}
-console.log("na cosa qualunque");
-}
-</script>
+<FORM method="POST"
+    onSubmit="return checkAnswer(this,'B');">
+
+<INPUT TYPE="RADIO" VALUE="A" NAME="cc">
+A. How many they want<BR>
+
+<INPUT TYPE="RADIO" VALUE="B" NAME="cc">
+B. Just one<BR>
+
+<INPUT TYPE="RADIO" VALUE="C" NAME="cc">
+C. Ninja cats do not have friends<BR>
+
+<INPUT TYPE="SUBMIT" VALUE="Submit Answer">
+
+</FORM>
 
   <footer id="footer" class="container">
     <div class="row">
