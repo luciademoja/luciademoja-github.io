@@ -20,3 +20,22 @@ header p {
 #name {
   color: green;
 }
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .small-8 columns {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
