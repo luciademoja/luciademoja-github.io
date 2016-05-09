@@ -42,7 +42,7 @@ function checkAnswer() {
 
 <!--The form displays the possible answers and contains the submit button-->
 <div id="form" class="container"> <!--the id is necessary for css format-->
-  <form method="post" onSubmit="return checkAnswer();">
+  <form method="post" onSubmit="checkAnswer();">
     <input type="radio" value="A" name="cc">A. How many they want
     <br>
     <input id="correct" type="radio" value="B" name="cc">B. Just one
